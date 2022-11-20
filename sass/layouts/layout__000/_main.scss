@@ -1,0 +1,10 @@
+.main{
+    background-color: $purpleColor;
+    padding: 45px 0;
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        align-items: center;
+    }
+}

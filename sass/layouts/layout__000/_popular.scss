@@ -1,0 +1,74 @@
+.popular {
+    display: none;
+
+    &__wrapper {
+        position: relative;
+    }
+
+    &__one {
+        @include circle;
+        top: 0;
+        right: 0;
+        width: 4px;
+        height: 4px
+    }
+
+    &__two {
+        @include circle;
+        top: 4px;
+        right: 6.5px;
+        width: 13px;
+        height: 13px
+    }
+
+    &__three {
+        @include circle;
+        @include center;
+        top: 4px;
+        right: 20px;
+        width: 48px;
+        height: 48px;
+        color: $whiteColor;
+        font-size: rem(24px);
+        font-weight: 300;
+        font-family: $bebasNeueFont;
+        letter-spacing: 0.08rem;
+        text-transform: uppercase;
+    }
+
+    &__lable {
+        position: absolute;
+        
+        width: 97px;
+        height: 30px;
+        top: 45px;
+        right: -20px;
+        
+        span {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            @include center;
+            background-color: $darkGreyColor;
+            border-radius: 50px;
+            color: $whiteColor;
+            font-size: rem(12px);
+            font-family: $bebasNeueFont;
+            font-weight: 300;
+            letter-spacing: 0.04rem;
+            text-transform: uppercase;
+            box-shadow: 0 0 20px $purpleColor;
+
+            &::before {
+                content: '';
+                width: 10.5px;
+                height: 10.5px;
+                background-color: $darkGreyColor;
+                rotate: 45deg;
+                position: absolute;
+                left: -3px;
+                top: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+.card {
+    background-color: $lightGreyColor;
+    width: 250px;
+
+    &__top {
+        position: relative;
+        padding: 40px 70px 30px;
+    }
+    &__popular {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    &__info {
+        text-align: center;
+    }
+
+    &__prise {
+        margin-bottom: 20px;
+    }
+
+    &__direction {
+        font-family: $bebasNeueFont;
+        font-weight: 300;
+        font-size: rem(24px);
+        letter-spacing: 0.04rem;
+        color: $blackColor;
+        text-transform: uppercase;
+    }
+
+    &__services {
+        background-image: url('../img/bg-image.svg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        padding: 40px 40px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__list {
+        &-item{
+            font-family: $robotoFont;
+            font-size: rem(16px);
+            font-weight: 300;
+            letter-spacing: 0.04rem;
+            line-height: 1.25;
+            color: $blackColor;
+            &:not(:last-child) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    
+
+    &__bottom {
+        position: relative;
+        height: 57px;
+    }
+
+    &__btn {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 54px;
+        background-color: $blueColor;
+        border: none;
+        border-radius: 30px;
+        color: $whiteColor;
+        font-size: rem(18px);
+        font-weight: 400;
+        letter-spacing: 0.04rem;
+        font-family: $bebasNeueFont;
+    }
+
+    &__discount {
+        display: none;
+    }
+
+    &--active {
+        // max-width: 400px;
+        .popular {
+
+            display: unset;
+        }
+        .card__bottom {
+            height: 92px;
+            padding: 47px 30px 30px;
+        }
+        .card__discount {
+            display: block;
+            font-family: $robotoFont;
+            font-size: rem(11px);
+            font-weight: 300;
+            letter-spacing: 0.04rem;
+            line-height: 1.64;
+            color: $greyColor;
+            text-align: center;
+        }
+        .card__btn {
+            background-color: $redColor;
+            top: 0;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.main{
+    padding: 60px 0;
+    .container {
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 65px;
+    }
+}
