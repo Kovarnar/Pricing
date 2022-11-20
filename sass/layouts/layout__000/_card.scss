@@ -81,7 +81,10 @@
     }
 
     &--active {
-        // max-width: 400px;
+        height: 673px;
+        display: grid;
+        grid-template-rows: auto 397px 92px;
+
         .popular {
 
             display: unset;

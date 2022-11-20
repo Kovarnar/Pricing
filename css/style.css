@@ -249,6 +249,13 @@ img {
 .card__discount {
   display: none;
 }
+.card--active {
+  height: 673px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 397px 92px;
+  grid-template-rows: auto 397px 92px;
+}
 .card--active .popular {
   display: unset;
 }
