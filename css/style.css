@@ -1,26 +1,22 @@
 @font-face {
-  font-family: "Bebas Neue";
-  src: url("../fonts/BebasNeue/BebasNeue-Thin.woff2") format("woff2"), url("../fonts/BebasNeue/BebasNeue-Thin.woff") format("woff");
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue-Thin.ttf") format("truetype"), url("../fonts/BebasNeue-Thin.otf") format("opentype");
   font-weight: 100;
-  font-style: normal;
 }
 @font-face {
-  font-family: "Bebas Neue";
-  src: url("../fonts/BebasNeue/BebasNeue-Light.woff2") format("woff2"), url("../fonts/BebasNeue/BebasNeue-Light.woff") format("woff");
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue-Light.ttf") format("truetype"), url("../fonts/BebasNeue-Light.otf") format("opentype");
   font-weight: 200;
-  font-style: normal;
 }
 @font-face {
-  font-family: "Bebas Neue";
-  src: url("../fonts/BebasNeue/BebasNeueBook.woff2") format("woff2"), url("../fonts/BebasNeue/BebasNeueBook.woff") format("woff");
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue-Book.ttf") format("truetype"), url("../fonts/BebasNeue-Book.otf") format("opentype");
   font-weight: 300;
-  font-style: normal;
 }
 @font-face {
-  font-family: "Bebas Neue";
-  src: url("../fonts/BebasNeue/BebasNeueRegular.woff2") format("woff2"), url("../fonts/BebasNeue/BebasNeueRegular.woff") format("woff");
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue-Regular.ttf") format("truetype"), url("../fonts/BebasNeue-Regular.otf") format("opentype");
   font-weight: 400;
-  font-style: normal;
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -190,7 +186,7 @@ img {
   margin-bottom: 20px;
 }
 .card__direction {
-  font-family: "Bebas Neue";
+  font-family: "BebasNeue", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
   letter-spacing: 0.04rem;
@@ -244,7 +240,7 @@ img {
   font-size: 1.125rem;
   font-weight: 400;
   letter-spacing: 0.04rem;
-  font-family: "Bebas Neue";
+  font-family: "BebasNeue", sans-serif;
 }
 .card__discount {
   display: none;
@@ -322,7 +318,7 @@ img {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 300;
-  font-family: "Bebas Neue";
+  font-family: "BebasNeue", sans-serif;
   letter-spacing: 0.08rem;
   text-transform: uppercase;
 }
@@ -350,7 +346,7 @@ img {
   border-radius: 50px;
   color: #fff;
   font-size: 0.75rem;
-  font-family: "Bebas Neue";
+  font-family: "BebasNeue", sans-serif;
   font-weight: 300;
   letter-spacing: 0.04rem;
   text-transform: uppercase;
@@ -375,7 +371,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "Bebas Neue";
+  font-family: "BebasNeue", sans-serif;
   letter-spacing: 0.08rem;
 }
 .prise__value {
